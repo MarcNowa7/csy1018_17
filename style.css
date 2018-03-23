@@ -1,0 +1,242 @@
+* {padding: 0; margin: 0;}
+
+header {
+
+    text-align: center;
+
+}
+header > h5 {
+  color: #7F7F7F;
+  color: hsl(20, 15%, 50%);
+  border-bottom: 1px solid #9BBB59;
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+      border-bottom-color: rgb(155, 187, 89);
+  margin: 0 0 .15em;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0.15em;
+      margin-left: 0px;
+  text-indent: 1.2em;
+  font-size: 450%;
+  line-height: 1.05;
+  font-variant: normal;
+      font-variant-alternates: normal;
+      font-variant-caps: normal;
+      font-variant-east-asian: normal;
+      font-variant-ligatures: normal;
+      font-variant-numeric: normal;
+      font-variant-position: normal;
+}
+h5 {
+  margin-top: 1.2em;
+  font-size: 200%;
+}
+#home
+{
+  background-image: url("https://images.unsplash.com/photo-1517036263620-3da0cecd5271?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=27180f88b6dea9b73385c42edd2e9a06&auto=format&fit=crop&w=500&q=60");
+  height: 100vh;
+}
+.banner{
+  background: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-text{
+  display : flex;
+  flex-direction : column;
+  justify-content: center;
+  text-align : center;
+  width : 100%;
+  height : 100%;
+}
+.text
+{
+  background: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main_info
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  src: center;
+}
+h4
+{
+  color: rgb(45, 90, 141);
+  margin: 0 0 .15em;
+  text-indent: 1.2em;
+  font-size: 150%;
+  line-height: 1.05;
+  font-variant: normal; 
+}
+h5
+{
+
+  color: #7F7F7F;
+  color: hsl(20, 15%, 50%);
+  border-bottom: 1px solid #9BBB59;
+  margin: 0 0 .15em;
+  text-indent: 1.2em;
+  font-size: 450%;
+  line-height: 1.05;
+  font-variant: normal;
+
+}
+p
+{
+  font-family: "Merriweather", serif;
+  font-size: 22px;
+  margin: .6em 0;
+  margin-top: 0.6em;
+ 
+  
+}
+
+p1
+{
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  margin: 0 0 .75em;
+  text-indent: 1.0em;
+  color: white
+}
+p2
+{
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  margin: 0 0 .75em; 
+}
+p3
+{
+  font-family: "Merriweather", serif;
+  font-size: 22px; 
+  margin: .6em 0;
+}
+span
+{
+  display: inline-block;
+  margin-left: -2.7em;
+  vertical-align: super;
+  font-size: 50%;
+  color: aqua
+}
+
+ol.timeline > li > .date {
+  float: left;
+  margin-left: .1em;
+  max-width: 8rem;
+  color: gray;
+  font-size: 110%;
+}
+
+ol.timeline > li > p {
+
+  margin: 0;
+      margin-left: 0px;
+}
+.note {
+  
+    margin-top: .4em;
+    font-size: 95%;
+}
+
+.flex-container  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+      background: deepskyblue;
+}
+
+.logo {
+  margin: 0 0 0 .4em;
+}
+    .logo a {
+      color: rgb(28, 24, 22);
+    }
+
+    .logo, .navigation {
+        list-style: none;
+        text-transform: uppercase;
+    }
+
+    .logo a, .navigation a {
+        text-decoration: none;
+        letter-spacing: .10rem;
+    }
+
+.navigation  {
+  display: flex;
+}
+
+.navigation a {
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+.navigation a:hover {
+    background: #00ace6;
+}
+
+/* *********** media queries *********** */
+@media all and (max-width: 990px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  
+  .logo {
+  margin: 0;
+}
+  
+  .navigation  {
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+
+
+/* ****** ****** */
+@media all and (max-width: 600px) {
+ 
+  .logo {
+    margin: .25em 0;
+    align-self: left; /* align the logo to the left side of 'flex-container' */
+}
+  
+  .navigation {
+    flex-direction: column;
+  }
+  
+  .navigation a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255,255,255,0.3); 
+    border-bottom: 1px solid rgba(0,0,0,0.1); 
+  }
+  
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+}
+h1 {
+  font-family: 'Kaushan Script', cursive;
+  
+}
+
+h2 {
+  font-family: 'Archivo Black', sans-serif;
+}
+
+h3 {
+  font-family: 'Archivo Black', sans-serif;
+}
+h6 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 48px;
+  color: aqua
+}
