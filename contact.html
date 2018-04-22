@@ -19,25 +19,30 @@
         </ul>
       </div>
   
-  <section id="info" class="#">
-      <div class="short_info">
-          <img src="images/photo.jpg" title="Me" />
-        </div>
-	<div class="banner">
-		<h1>Mr. Marc Nowa</h1>
-    <ul>
-      <li><strong>Telephone: </strong>
-        <strong>07456789123, 01908123456</strong></li>
-    <li><strong>Email: </strong>
-      <a href="mailto:un_samuel17@yahoo.co.uk">
-        un_samuel17@yahoo.co.uk
-      </a>
-    </li>
-    <li><strong>Address: </strong>
-      <strong>11 Ladymeadow court <br>  Milton Keynes <br> MK10 9HZ</strong></li>
-    <li><strong>Full & Clear UK Driving license <br> Access to a car</strong></li> 
-    </ul>
-  </div>  
- </section> 
+      <div class="container">  
+        <form id="contact" action="" method="post">
+          <h3>CONTACT FORM</h3>
+         
+          <fieldset>
+            <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Email Address" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
+          </fieldset>
+          <fieldset>
+            <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+          
+        </form>
+      </div>
 </body>
 </html>  
